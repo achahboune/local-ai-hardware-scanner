@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Local AI Hardware Scanner – Optimisez vos modèles IA locaux</title>
+    <meta name="description" content="Scannez votre CPU, GPU et RAM en un clic et obtenez des recommandations de modèles IA adaptés à votre matériel. Service Python léger, facile à configurer.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph -->
+    <meta property="og:title" content="Local AI Hardware Scanner – Optimisez vos modèles IA locaux">
+    <meta property="og:description" content="Scannez votre CPU, GPU et RAM en un clic et obtenez des recommandations de modèles IA adaptés à votre matériel. Service Python léger, facile à configurer.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://raw.githubusercontent.com/achahboune/local-ai-hardware-scanner/main/assets/preview.png">
+    <meta property="og:url" content="https://example.com/">
+    <meta property="og:locale" content="fr_FR">
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Local AI Hardware Scanner",
+      "operatingSystem": "Linux, Windows, macOS",
+      "applicationCategory": "DeveloperApplication",
+      "description": "A lightweight Python service that scans CPU, GPU and RAM and recommends local AI models.",
+      "softwareVersion": "1.0.0",
+      "url": "https://github.com/achahboune/local-ai-hardware-scanner",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      }
+    }
+    </script>
+    <style>
+        body{margin:0;font-family:Arial,sans-serif;color:#333;background:#f9f9f9;line-height:1.6}
+        header{background:#4a90e2;color:#fff;padding:2rem 1rem;text-align:center}
+        header h1{margin:0;font-size:2.5rem}
+        header p{margin:0.5rem 0 1.5rem;font-size:1.2rem}
+        .btn{display:inline-block;background:#ff6f61;color:#fff;padding:.75rem 1.5rem;border-radius:4px;text-decoration:none;font-weight:bold;transition:.3s}
+        .btn:hover{background:#e65b50}
+        .container{max-width:1200px;margin:auto;padding:1rem}
+        .section{padding:3rem 0}
+        .features,.faq{display:grid;gap:1.5rem}
+        @media(min-width:768px){
+            .features{grid-template-columns:repeat(3,1fr)}
+            .faq{grid-template-columns:repeat(2,1fr)}
+        }
+        .card{background:#fff;padding:1.5rem;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1)}
+        h2{margin-top:0;color:#4a90e2}
+        footer{background:#333;color:#fff;padding:2rem 1rem;text-align:center}
+        footer a{color:#ff6f61;text-decoration:none}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Local AI Hardware Scanner</h1>
+        <p>Scannez votre matériel et choisissez le modèle IA qui lui correspond</p>
+        <a href="https://github.com/achahboune/local-ai-hardware-scanner" class="btn">Voir le projet sur GitHub</a>
+    </header>
+
+    <section class="section container">
+        <h2>Fonctionnalités clés</h2>
+        <div class="features">
+            <div class="card">
+                <h3>Analyse complète</h3>
+                <p>Détecte CPU, GPU, RAM et leurs capacités en temps réel.</p>
+            </div>
+            <div class="card">
+                <h3>Recommandations IA</h3>
+                <p>Suggère les modèles locaux les plus performants pour votre configuration.</p>
+            </div>
+            <div class="card">
+                <h3>Léger & Open‑Source</h3>
+                <p>Service Python minimaliste, aucune dépendance lourde.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section container" style="background:#e8f4fd;border-radius:8px;">
+        <h2>Comment ça fonctionne ?</h2>
+        <div class="card">
+            <ol>
+                <li>Installez le package via <code>pip install local-ai-hardware-scanner</code>.</li>
+                <li>Lancez le service : <code>local_ai_scanner --run</code>.</li>
+                <li>Le scanner analyse votre matériel et génère un rapport JSON.</li>
+                <li>Consultez les recommandations et téléchargez le modèle adapté.</li>
+            </ol>
+        </div>
+    </section>
+
+    <section class="section container">
+        <h2>FAQ</h2>
+        <div class="faq">
+            <div class="card">
+                <h3>Quel OS est supporté ?</h3>
+                <p>Linux, Windows et macOS. Le script détecte automatiquement les pilotes GPU.</p>
+            </div>
+            <div class="card">
+                <h3>Le scanner consomme‑t‑il beaucoup de ressources ?</h3>
+                <p>Non, il s’exécute en moins d’une seconde et utilise moins de 5 % du CPU.</p>
+            </div>
+            <div class="card">
+                <h3>Puis‑je l’utiliser dans un conteneur Docker ?</h3>
+                <p>Oui, une image officielle est disponible sur Docker Hub.</p>
+            </div>
+            <div class="card">
+                <h3>Comment contribuer ?</h3>
+                <p>Forkez le dépôt, créez une branche, proposez vos améliorations via Pull Request.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Prêt à optimiser vos modèles IA ? <a href="https://github.com/achahboune/local-ai-hardware-scanner">Clonez le projet sur GitHub</a></p>
+        <p>&copy; 2026 Local AI Hardware Scanner – Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
